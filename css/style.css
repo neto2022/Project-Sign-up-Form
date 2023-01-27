@@ -1,0 +1,28 @@
+#main{
+    display: flex;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-content{
+    font-family: "Roboto", sans-serif, 'Open Sans', system-ui;
+    color: aliceblue;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    border-right: 3px solid  black;
+    width: 50vw;
+    height: 100vh;
+}
+
+#right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#right-content > p{
+    width: 50vw;
+    padding-left: 1vh;
+}
